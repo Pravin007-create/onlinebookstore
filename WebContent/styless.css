@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background:url(Photo.jpg);
+	font-family: "Poppins", sans-serif;
+}
+
+#topmid {
+	border: 0px solid black;
+	color:black;
+	text-align: center;
+	font-weight: bold;
+	margin: auto;
+	font-style: oblique;
+	font-size: 25px;
+	text-shadow: 2px 2px white;
+}
+
+.tab {
+	font-weight: bold;
+	margin: auto;
+	min-width: 450px;
+	width: 500px;
+	text-align:center;
+	
+}
+.tab a {
+	color:rgb(0, 0, 0);
+}
+
+.tab tr {
+	
+	border-radius: 3px;
+	backdrop-filter: blur(5px);
+	font-size: 22px;
+	float:left;
+	padding-left:17%;
+	padding-bottom:5px;
+	padding-top:2px;
+	margin-bottom:10px;
+	width:100%;
+	box-shadow: 2px 5px 5px black;
+	position: relative;
+}
+.tab input{
+	font-size: .8em;
+	box-sizing: border-box;
+	border-radius: 5px;
+	width: 250px;
+	
+}
+.check-boxs{
+	
+	position: absolute;
+	left:4%;
+	
+}
+a:hover {
+	color: rgb(255, 255, 255);
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+header  nav li :hover{
+	border-bottom: 2px #ffff80 solid;
+	border-radius: 10px;
+	color: #ffff80;
+	padding-bottom:2px;
+}
+
+header  nav li{
+    display: table;
+    height: 80%;
+    float: left;
+    margin-right: 20px;
+	padding-left: 10px;
+	
+
+}
+
+header  nav a{
+    color: #ffffff;
+	transition: all .5s ease 0s;
+}
+
+header nav li a.active {
+	background-color: white;
+	border-radius: 5px;
+	color:black;
+	transition: all .5s ease 0s;
+	
+	
+}
+
+
+.holds-the-iframe {
+	background: url(loader.gif) center center no-repeat;
+}
